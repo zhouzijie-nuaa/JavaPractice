@@ -60,6 +60,7 @@ public class textFile {
     }
 
     private static Employee readEmployee(Scanner in) {
+
         final String line = in.nextLine();
         final String[] tokens = line.split("\\|");
         String name = tokens[0];
